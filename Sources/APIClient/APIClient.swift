@@ -106,7 +106,7 @@ typealias Query = URLQueryItem
 extension Query {
     init(
         name: String,
-        _ value: some CustomStringConvertible
+        _ value: CustomStringConvertible
     ) {
         self.init(
             name: name,
